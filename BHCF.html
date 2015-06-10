@@ -1,0 +1,171 @@
+<!doctype html> <!--first website project. I didn't create all the links, but instead linked to the actual web page-->
+<html>
+<head>
+    <title>BHCF</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style type="text/css">
+	
+	body{
+	background-color:black;
+	}
+	
+	.fixedwidth{
+  		width:1050px;
+  		margin:0 auto;
+  	}
+  	
+	
+	#banner{
+	width:100%
+	height: 500px;
+	font-family: courier new;
+	font-size:26px;
+	text-align:center;
+	color:white;
+	background-color: #787F8C;
+	border:#B80F20 solid;
+	border-width:5px;
+	margin:0 auto;
+	padding: 0 auto;
+	
+	}
+	 #bardiv ul{
+  		margin:0;
+  		padding:0;
+  		
+  	}
+  	
+  	#bardiv li{
+  		list-style:none;
+  		color: white;
+  		font-family: times new roman;
+  		font-weight:bold;
+  		font-size:.7em;
+  		height:100%;
+  		padding: 10px;
+  		float:left;
+  	}
+
+	#logodiv{
+	float:right;
+	padding: 10px;
+	
+	}
+	
+	
+	#xfit{
+	float: right;
+	padding: 10px;
+	
+	}
+	
+	#wodify{
+	clear:both;
+	padding: 10px;
+	
+	}
+	
+	#xjournal{
+	clear:both;
+	padding: 10px;
+	
+	}
+	
+	
+	
+	
+</style>
+   
+</head>
+
+
+<body>
+	
+	<div class="fixedwidth">
+		<div id="banner"> 
+			<h1>Crossfit Brick House Fitness</h1>
+		
+		<div id="bardiv">
+			<ul>
+				<li><a href="file://localhost/Users/n_dondoyano/Desktop/My%20Websites/Ch%203.%20Javascript/BHCF.html" id="a8">Home</a></li>
+				<li><a href="file:///Users/n_dondoyano/Desktop/My%20Websites/Ch%203.%20Javascript/Getting%20started.html" id="a1">Getting Started</a></li>
+				<li><a href="http://www.brickhousesj.com/rates/" id="a2">Rates</a></li>
+				<li><a href="http://www.brickhousesj.com/schedule/" id="a3">Schedules</a></li>
+				<li><a href="http://www.brickhousesj.com/coaches/" id="a4">Coaches</a></li>
+				<li><a href="http://www.brickhousesj.com/workoutoftheday/" id="a5">Work Out Of The Day</a></li>
+				<li><a href="http://www.brickhousesj.com/contact/" id="a6">Contact Us</a></li>
+				<li><a href="http://www.brickhousesj.com/testimonials-1/" id="a7">Testimonials</a></li>
+				
+			</ul>	
+		
+			<div id="logodiv"> 
+				<img src="bhcf.jpeg" height='350' width='500' />
+		
+				<div id="xfit"> 
+					<img src="xfit.jpeg" height='100' width='200' />
+				
+				<div id="wodify">
+					<img src="WODIFY-small-125.jpg" height='100' width ='200' />
+			
+				<div id="xjournal"> 
+					<img src="xjournal.jpeg" height='100' width='200' />
+					
+				</div>	
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>	
+	</div>
+    
+				
+	<script type="text/javascript">
+	$(function() {
+    $('#a1').click(function(){
+  window.location.href = $(this).attr('href');
+});
+	
+	$(function() {
+    $('#a2').click(function(){
+  window.location.href = $(this).attr('href');
+});
+		$(function() {
+    $('#a3').click(function(){
+  window.location.href = $(this).attr('href');
+});
+	
+	$(function() {
+    $('#a4').click(function(){
+  window.location.href = $(this).attr('href');
+});
+	$(function() {
+    $('#a5').click(function(){
+  window.location.href = $(this).attr('href');
+});
+	
+	$(function() {
+    $('#a6').click(function(){
+  window.location.href = $(this).attr('href');
+});
+
+	$(function() {
+    $('#a7').click(function(){
+  window.location.href = $(this).attr('href');
+});
+	
+	$(function() {
+    $('#a8').click(function(){
+  window.location.href = $(this).attr('href');
+});
+	
+	document.GetElementById("logodiv").onclick= function(){
+		window.location.href= $(this).attr("http://games.crossfit.com");
+	}
+	
+	</script>
+		
+</body>
+</html>
